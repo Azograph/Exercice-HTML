@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container" >
+            <img id="imgHead" src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1657630/e0ebd5982e69895132d4ffdf80a1a6048ab53d25/header.jpg?t=1776359011">
+        </div>
+        <div class="container" >
+            <h1>Bienvenu sur mon site !</h1>
+        </div>
+        <div class="container" >
+            <ul>
+                <li><a href="indexl.html">Accueil</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <fieldset>
+            <legend> Contact </legend>
+            <ul class="form">
+                <li>
+                    <label for="nom">Nom:<span class="etoile">*</span></label>
+                    <input type="text" id="nom" placeholder="Ex: Robert">
+                </li>
+                <li>
+                    <label for="e-mail">E-mail:<span class="etoile">*</span></label>
+                    <input type="email" name="e-mail" id="e-mail" placeholder=" Ex: monMail@FAI.com">
+                </li>
+                <li>
+                    <label for="commentaire">Laisser un commentaire:</label>
+                </li>
+                <li>
+                    <textarea name="commentaire" id="commentaire" cols="70" rows="10" placeholder="Je dépose mon avis :)"></textarea>
+                </li>
+                <li>
+                    <input type="checkbox" name="checkbox" id="checkbox" checked>
+                    <label for="checkbox">Envoyer une copie par E-mail !</label>
+                </li>
+                <li>
+                    <button type="submit" value="0"> Envoyer </button>
+                    <button type="submit" value="1"> Reset </button>
+                </li>
+            </ul>
+        </fieldset>
+    </main>
+    <footer>
+        <div class="navFooter" >
+            <ul>
+                <li><a href="#">Menu 1</a></li>
+                <li><a href="#">Menu 2</a></li>
+                <li><a href="#">Menu 3</a></li>
+                <li><a href="#">Menu 4</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

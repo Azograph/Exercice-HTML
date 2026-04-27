@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #733254;
+    background-color: #FCCBC4;
+    margin: 5em;
+}
+
+a {
+    margin-top: 1em;
+
+}
+
+
+
+strong {
+    color: #cb7af0;
+}
+
+em {
+    color: #cb7af0;
+}

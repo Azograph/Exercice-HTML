@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+}
+
+.premier {
+    min-width: 500px;
+    flex: 2 1 500px;
+}
+
+.second {
+    min-width: 300px;
+    flex: 2 1 300px ;
+}
+
+
+iframe {
+    width: 100%;
+}
+
+video {
+    width: 100%;
+}
+

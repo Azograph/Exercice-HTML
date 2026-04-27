@@ -1,0 +1,57 @@
+body {
+     font-family: "Montserrat", sans-serif;
+     color: #071D51;
+     background-color: #F4F7FB;
+     margin: 10vh;
+}
+
+/* NAVIGATION & LIENS, LISTES */ 
+
+a {
+    color: #EB7950;
+}
+
+a:visited {
+    color: #EB7950;
+}
+
+#navigationP {
+  text-align: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+#navigationP li:nth-child(1) {
+    
+}
+*/
+
+#navigationP li a {
+  color:  #071D51;;
+  font-weight: 500;
+  line-height: 5em ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 1em 0em ;
+  margin-left: 2em;
+}
+
+#navigationP li a:hover {
+    color: #EB7950;
+}
+
+#navigationP li {
+  display: inline;
+}
+
+.langues li {
+  display: inline;
+}
+
+/* TITRES */ 
+
+h3 {
+    color: #EB7950;
+}
