@@ -20,8 +20,18 @@ a:visited {
   list-style: none;
   margin: 0;
   padding: 0;
+
+
 }
 
+.position {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  position:fixed;
+  padding: 20px;
+  justify-content: right;
+}
 /*
 #navigationP li:nth-child(1) {
     
