@@ -1,0 +1,115 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e0c1af;
+}
+
+main {
+  margin: auto;
+  max-width: 800px;
+}
+
+
+
+/* 
+    /MENU DEPLIANT CSS HTML\
+.texte
+{
+    border: 2px solid lightgray;
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px #999;
+    max-height: 500px;
+    list-style: none;
+    margin-right: 10px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#showme:target{
+  visibility: visible;
+}
+*/
+
+.bouton-deplier {
+  background-color: #7a4f36;
+  padding: 10px 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  color: #d1d1d1;
+  margin:0px 10px 0px ;
+  width: 100px;
+  height: 100px;
+  border: none;
+}
+
+.deplie {
+    margin:0px 10px 0px ;
+    color: #fcfbfb;
+    background-color: #7a4f36;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: rgb(97, 59, 37) 3px 3px 6px 0px inset, rgb(121, 79, 53) -3px -3px 6px 1px inset;
+    margin-bottom: 20px;
+}
+
+.replie {
+  margin-bottom: 20px;;
+}
+
+.bouton-replier {
+  margin: 5px 0px 0px ;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #50311f;
+  padding: 10px;
+  border-radius: 10px;
+  color: #f3f3f3;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: x-small;
+  height: 15px;
+    box-shadow: rgb(66, 39, 23) 3px 3px 6px 0px inset, rgb(73, 43, 24) -3px -3px 6px 1px inset;
+}
+.montexte {
+    padding: 5px 15px;
+}
+ /* ///////////////////////////////// */
+
+
+
+.container {
+  display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+}
+
+.containerP {
+  display: flex;
+    align-content: center;
+    justify-content: left;
+    align-items: center;
+    min-width: 500px;
+    flex-wrap: wrap;
+
+}
+
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+li {
+  padding-bottom: 10px;
+}
+th,td  {
+    padding: 10px 20px 10px 20px;
+}
+
+th {
+  background-color: #50311f;
+}
+
+td {
+      border: 1px solid #50311f;
+}

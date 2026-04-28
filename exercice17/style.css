@@ -2,7 +2,7 @@ body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-nav {
+header {
     display: grid;
     grid-template-columns: 2fr;
     justify-items: center;
