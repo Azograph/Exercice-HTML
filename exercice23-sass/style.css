@@ -1,0 +1,26 @@
+.container {
+  background-color: lightpink;
+}
+.container nav {
+  background-color: lightblue;
+  width: 50vh;
+}
+.container a {
+  color: purple;
+}
+
+/* EXERCICE 2 */
+nav {
+  margin: 10px;
+}
+
+div {
+  padding: 20px 10px 10px 30px;
+}
+
+div {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}/*# sourceMappingURL=style.css.map */

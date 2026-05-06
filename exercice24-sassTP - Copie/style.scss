@@ -1,0 +1,82 @@
+// $rose: lightpink;
+// $violet: purple;
+// $bleuCiel: lightblue;
+
+// .container {
+//     background-color: $rose;
+//     nav {
+//         background-color: $bleuCiel;
+//         width: 50vh;
+//     }
+//     a {
+//         color: $violet;
+//     }
+// }
+
+// /* EXERCICE 2 */ 
+
+// // technique 1
+// @mixin lesDeuxPiedsDansLaMarge ($marge) {
+//     margin: $marge;
+// }
+// nav {
+//     @include lesDeuxPiedsDansLaMarge (10px)
+// }
+
+// // technique 2 
+// @mixin lesDeuxPiedsDansLaMargeDeux ($top:10px, $bot:10px, $right:10px, $left:10px) {
+//     padding: $top $bot $right $left;
+// }
+// div {
+//     @include lesDeuxPiedsDansLaMargeDeux ($top:20px,$left:30px)
+// }
+
+// // technique 3
+// @mixin lesDeuxPiedsDansLaMargeTrois ($margeDeux:10px) {
+//     margin-top: $margeDeux;
+//     margin-bottom: $margeDeux;
+//     margin-left: $margeDeux;
+//     margin-right: $margeDeux;
+// }
+// div {
+//     @include lesDeuxPiedsDansLaMargeTrois (20px)
+// }
+
+$fondContainer: #FFE8F0;
+$textColor: #0f4555;
+$fondInfos: #daf0f1; 
+$textColorAccent: #E25869;
+
+h2 {margin-top: 0;}
+h3 {
+    color: $textColorAccent;
+}
+.container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 550px;
+    height: 850px;
+    background-color: $fondContainer;
+    color: $textColor;
+    border-radius: 10px;
+    margin: auto;
+    padding: 40px;
+    display: flex;
+    justify-content: start;
+    .card {
+        text-align: center;
+        img {
+            width: 45%;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+        svg {
+        fill:#0f4555;
+        }
+    .card-infos {
+        text-align: start;
+        background-color: $fondInfos;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    }
+}

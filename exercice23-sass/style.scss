@@ -1,0 +1,43 @@
+$rose: lightpink;
+$violet: purple;
+$bleuCiel: lightblue;
+
+.container {
+    background-color: $rose;
+    nav {
+        background-color: $bleuCiel;
+        width: 50vh;
+    }
+    a {
+        color: $violet;
+    }
+}
+
+/* EXERCICE 2 */ 
+
+// technique 1
+@mixin lesDeuxPiedsDansLaMarge ($marge) {
+    margin: $marge;
+}
+nav {
+    @include lesDeuxPiedsDansLaMarge (10px)
+}
+
+// technique 2 
+@mixin lesDeuxPiedsDansLaMargeDeux ($top:10px, $bot:10px, $right:10px, $left:10px) {
+    padding: $top $bot $right $left;
+}
+div {
+    @include lesDeuxPiedsDansLaMargeDeux ($top:20px,$left:30px)
+}
+
+// technique 3 (pas sur de savoir comment changer les tailles séparement)
+@mixin lesDeuxPiedsDansLaMargeTrois ($margeDeux:10px) {
+    margin-top: $margeDeux;
+    margin-bottom: $margeDeux;
+    margin-left: $margeDeux;
+    margin-right: $margeDeux;
+}
+div {
+    @include lesDeuxPiedsDansLaMargeTrois (20px)
+}
