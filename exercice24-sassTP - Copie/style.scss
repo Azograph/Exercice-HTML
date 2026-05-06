@@ -1,82 +1,128 @@
-// $rose: lightpink;
-// $violet: purple;
-// $bleuCiel: lightblue;
-
-// .container {
-//     background-color: $rose;
-//     nav {
-//         background-color: $bleuCiel;
-//         width: 50vh;
-//     }
-//     a {
-//         color: $violet;
-//     }
-// }
-
-// /* EXERCICE 2 */ 
-
-// // technique 1
-// @mixin lesDeuxPiedsDansLaMarge ($marge) {
-//     margin: $marge;
-// }
-// nav {
-//     @include lesDeuxPiedsDansLaMarge (10px)
-// }
-
-// // technique 2 
-// @mixin lesDeuxPiedsDansLaMargeDeux ($top:10px, $bot:10px, $right:10px, $left:10px) {
-//     padding: $top $bot $right $left;
-// }
-// div {
-//     @include lesDeuxPiedsDansLaMargeDeux ($top:20px,$left:30px)
-// }
-
-// // technique 3
-// @mixin lesDeuxPiedsDansLaMargeTrois ($margeDeux:10px) {
-//     margin-top: $margeDeux;
-//     margin-bottom: $margeDeux;
-//     margin-left: $margeDeux;
-//     margin-right: $margeDeux;
-// }
-// div {
-//     @include lesDeuxPiedsDansLaMargeTrois (20px)
-// }
-
-$fondContainer: #FFE8F0;
-$textColor: #0f4555;
-$fondInfos: #daf0f1; 
-$textColorAccent: #E25869;
-
-h2 {margin-top: 0;}
-h3 {
-    color: $textColorAccent;
-}
-.container {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    width: 550px;
-    height: 850px;
-    background-color: $fondContainer;
-    color: $textColor;
-    border-radius: 10px;
+main {
     margin: auto;
-    padding: 40px;
+    width: 70%;
+    min-width:960px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+$blue: rgb(63, 63, 134);
+
+p {
+    margin: 0;
+}
+
+.p-marginTop {
+    margin-top: 15px;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.container {
     display: flex;
-    justify-content: start;
-    .card {
-        text-align: center;
-        img {
-            width: 45%;
-            margin-bottom: 20px;
-            border-radius: 10px;
-        }
-        svg {
-        fill:#0f4555;
-        }
-    .card-infos {
-        text-align: start;
-        background-color: $fondInfos;
-        padding: 20px;
-        border-radius: 10px;
+    justify-content: flex-start;
+}
+
+.intro {
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(235, 235, 235);
+}
+
+.container-2 {
+    width: 70%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    padding-bottom: auto;
+}
+
+.container-1 {
+    width: 30%;
+    flex-grow: 0;
+    flex-shrink: 2;
+    flex-direction: column; 
+}
+
+.container-description {
+    background-color:$blue;
+    color: white;
+    p {
+        color: white;
     }
+}
+
+.container-contact {
+    background-color: $blue;
+    color: white;
+    padding: 10px;;
+}
+
+.container-hobbies {
+    background-color: $blue;
+    color: white;
+}
+
+.container-competence {
+    background-color: rgb(235, 235, 235);
+}
+
+.card {
+    padding: 25px;
+    img {
+        width: 100%;
     }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li {
+        margin-bottom: 10px;
+    }
+}
+
+.date {
+    background-color: $blue;
+    padding: 20px;
+    border-radius: 100%;
+    color: white;
+}
+
+.card-xp {
+    padding: 0;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.card-hobbies ul {
+    margin-left: 10px;;
+    list-style:disc;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        margin-right: 20px;
+        margin-left: 10px;;
+    }
+}
+
+p {
+    color: rgb(105, 105, 105);
+}
+
+em {
+    color: $blue;
+}
+
+.titre-souligne {
+    border-bottom: solid 1px rgb(168, 168, 168);
+    margin-right: 10px;
 }
