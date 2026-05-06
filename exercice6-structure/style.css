@@ -1,0 +1,36 @@
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 3em;
+}
+
+h3 {
+    color: blue;
+    font-size: 2em;
+}
+
+p {
+    background-color: gray;
+}
+
+.fondRose {
+    background-color: pink;
+}
+
+strong {
+    font-style: normal;
+    color: yellowgreen;
+}
+
+em {
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 1.5em;
+    color: orange;
+}
+
+.titreAticle {
+    color: green;
+    text-align: right;
+    text-decoration:underline
+}

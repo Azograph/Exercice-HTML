@@ -1,0 +1,22 @@
+body {
+    background-color:#FCCBC4 ;
+    margin: 0;
+    font-family: "Courgette", cursive;
+    color: #733254 ;
+}
+
+#global {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em; /* largeur obligatoire pour être centré */
+}
+
+h1 {
+    color: white ;
+    font-size: 6em;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
